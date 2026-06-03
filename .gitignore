@@ -1,0 +1,41 @@
+# Gradle
+.gradle/
+build/
+out/
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+*.iml
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# Maven
+target/
+.m2/
+
+# VS Code
+.vscode/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Run directories
+run/
+
+# Minecraft
+mods/
+logs/
+crash-reports/
+
+# Gradle wrapper
+gradle-wrapper.jar
