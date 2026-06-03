@@ -1,0 +1,30 @@
+modLoader="javafxmod"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="awarenotforgotten"
+version="1.0.0"
+displayName="Aware Not Forgotten"
+displayURL="https://github.com/jdj212223-ctrl/awarenotforgotten.jar"
+logoFile="logo.png"
+credits="A terrifying mashup of wonderland.jar, gonebutnotforgotten.jar, and aware and conscious.jar"
+authors="jdj212223-ctrl"
+description="""
+A psychological horror mod combining liminal spaces, stalking entities, and the game knowing about you.
+The game is aware. The game is conscious. Your WiFi isn't safe.
+"""
+
+[[dependencies.awarenotforgotten]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.awarenotforgotten]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
